@@ -122,50 +122,33 @@
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: url(./images/boy-in-nature.jpeg);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  border-radius: 20px;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-#parallax-world-of-ugg .parallax-two {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: url(./images/on-the-road-again-qr.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  border-radius: 20px;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+#parallax-world-of-ugg .parallax-one,
+#parallax-world-of-ugg .parallax-two,
 #parallax-world-of-ugg .parallax-three {
   padding-top: 200px;
   padding-bottom: 200px;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(./images/cyberpunk-world.jpg);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
-  border-radius: 20px;
   -webkit-background-size: cover;
+  border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+#parallax-world-of-ugg .parallax-one {
+  background-image: url(./images/boy-in-nature.jpeg); /* Change the URL to your image */
+}
+
+#parallax-world-of-ugg .parallax-two {
+  background-image: url(./images/on-the-road-again-qr.jpg); /* Change the URL to your image */
+}
+
+#parallax-world-of-ugg .parallax-three {
+  background-image: url(./images/cyberpunk-world.jpg); /* Change the URL to your image */
 }
 
 /* Extras */
