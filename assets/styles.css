@@ -102,7 +102,8 @@
 #parallax-world-of-ugg .block {
   background: white;
   padding: 60px;
-  width: 820px;
+  width: 100%;
+  max-width: 820px; /* Limit maximum width */
   margin: 0 auto;
   text-align: justify;
 }
@@ -131,9 +132,9 @@
   position: relative;
   width: 100%;
   background-attachment: fixed;
-  background-size: contain; /* Change from 'cover' to 'contain' */
-  -moz-background-size: contain;
-  -webkit-background-size: contain;
+  background-size: cover; /* Change to 'cover' */
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -164,7 +165,7 @@
 @media screen and (max-width: 959px) {
   #parallax-world-of-ugg .block {
     padding: 40px;
-    width: 620px;
+    width: 100%;
   }
   #parallax-world-of-ugg .parallax-one,
   #parallax-world-of-ugg .parallax-two,
