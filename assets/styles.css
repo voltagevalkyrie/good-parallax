@@ -131,9 +131,9 @@
   position: relative;
   width: 100%;
   background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
+  background-size: contain; /* Change from 'cover' to 'contain' */
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center center;
